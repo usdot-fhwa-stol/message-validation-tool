@@ -1,3 +1,4 @@
+[![Docker Hub Build](https://github.com/usdot-fhwa-stol/message-validation-tool/actions/workflows/dockerhub.yml/badge.svg?branch=develop)](https://github.com/usdot-fhwa-stol/message-validation-tool/actions/workflows/dockerhub.yml?query=branch:develop) [![CI](https://github.com/usdot-fhwa-stol/message-validation-tool/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/usdot-fhwa-stol/message-validation-tool/actions/workflows/ci.yml?query=branch:develop) [![Docker Pulls](https://img.shields.io/docker/pulls/usdotfhwastoldev/message-validation-tool?label=Docker%20Pulls%20%28message-validation-tool%29)](https://hub.docker.com/r/usdotfhwastoldev/message-validation-tool) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=usdot-fhwa-stol_message-validation-tool&metric=alert_status)](https://sonarcloud.io/project/overview?id=usdot-fhwa-stol_message-validation-tool) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/usdot-fhwa-stol/message-validation-tool/blob/develop/LICENSE)
 
 # Message Validation and Certification Tool v1.0
 ## A supplimental toolset for RSE Test Plans 
@@ -5,7 +6,8 @@
 This tool/application is a part of USDOT's RoadSide Equipment testplans for RSE 4.0 standards. The application follows parallel to the methodology used to define how Intelligent Transportation Systems and Connected and Automated Vehicle message/applications are going to be validated in different ITS equipments. This tool is developed in python ver. 3 and available with docker build configurations for multi-platform support. This tool has been tested in Ubuntu 18.04.  Some of the usecases for this tool can be : 
 * Certification testing of different applications 
 * Researchers looking for quick message verification 
-
+> [!NOTE]
+> The Message Validation Tool was moved from the V2X-Hub repository into this independent repository after release 7.11.1. For previous git history, refer to the original [V2X-Hub validation tool location](https://github.com/usdot-fhwa-OPS/V2X-Hub/tree/0f941cf8d1115990024d3d2d2433b7852d77df6f/tools/validation-tool).
 ## Installation
 
 The toolset can be installed either locally or through a docker container. Please use following instruction for installation based on the need. 
