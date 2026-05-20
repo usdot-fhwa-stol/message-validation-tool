@@ -7,7 +7,7 @@ This tool/application is a part of USDOT's RoadSide Equipment testplans for RSE 
 * Certification testing of different applications 
 * Researchers looking for quick message verification 
 > [!NOTE]
-> The Message Validation Tool was moved from the V2X-Hub repository into this independent repository after release 7.11.1. For previous git history, refer to the original V2X-Hub location: https://github.com/usdot-fhwa-OPS/V2X-Hub
+> The Message Validation Tool was moved from the V2X-Hub repository into this independent repository after release 7.11.1. For previous git history, refer to the original [V2X-Hub validation tool location](https://github.com/usdot-fhwa-OPS/V2X-Hub/tree/0f941cf8d1115990024d3d2d2433b7852d77df6f/tools/validation-tool).
 ## Installation
 
 The toolset can be installed either locally or through a docker container. Please use following instruction for installation based on the need. 
