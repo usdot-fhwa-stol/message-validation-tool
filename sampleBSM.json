@@ -1,0 +1,187 @@
+{
+  "messageId": 20,
+  "value": [
+    "BasicSafetyMessage",
+    {
+      "coreData": {
+        "msgCnt": 65,
+        "id": "597f0d67",
+        "secMark": 14657,
+        "lat": 389565164,
+        "long": -771502184,
+        "elev": 794,
+        "accuracy": {
+          "semiMajor": 255,
+          "semiMinor": 255,
+          "orientation": 65535
+        },
+        "transmission": "unavailable",
+        "speed": 2,
+        "heading": 7927,
+        "angle": 127,
+        "accelSet": {
+          "long": 2,
+          "lat": 2000,
+          "vert": 1,
+          "yaw": 0
+        },
+        "brakes": {
+          "wheelBrakes": [
+            16,
+            5
+          ],
+          "traction": "unavailable",
+          "abs": "unavailable",
+          "scs": "unavailable",
+          "brakeBoost": "unavailable",
+          "auxBrakes": "unavailable"
+        },
+        "size": {
+          "width": 200,
+          "length": 500
+        }
+      },
+      "partII": [
+        {
+          "partII-Id": 0,
+          "partII-Value": [
+            "VehicleSafetyExtensions",
+            {
+              "pathHistory": {
+                "crumbData": [
+                  {
+                    "latOffset": 14500,
+                    "lonOffset": -6650,
+                    "elevationOffset": 394,
+                    "timeOffset": 65534,
+                    "heading": 66
+                  },
+                  {
+                    "latOffset": 14538,
+                    "lonOffset": -6600,
+                    "elevationOffset": 383,
+                    "timeOffset": 65534,
+                    "heading": 59
+                  },
+                  {
+                    "latOffset": 14715,
+                    "lonOffset": -6798,
+                    "elevationOffset": 383,
+                    "timeOffset": 65534,
+                    "heading": 79
+                  },
+                  {
+                    "latOffset": 14596,
+                    "lonOffset": -6635,
+                    "elevationOffset": 383,
+                    "timeOffset": 65534,
+                    "heading": 0
+                  },
+                  {
+                    "latOffset": 14471,
+                    "lonOffset": -6535,
+                    "elevationOffset": 385,
+                    "timeOffset": 65534,
+                    "heading": 49
+                  },
+                  {
+                    "latOffset": 14610,
+                    "lonOffset": -6593,
+                    "elevationOffset": 384,
+                    "timeOffset": 65534,
+                    "heading": 90
+                  },
+                  {
+                    "latOffset": 14555,
+                    "lonOffset": -6536,
+                    "elevationOffset": 385,
+                    "timeOffset": 65534,
+                    "heading": 203
+                  },
+                  {
+                    "latOffset": 15708,
+                    "lonOffset": -10636,
+                    "elevationOffset": 416,
+                    "timeOffset": 65534,
+                    "heading": 203
+                  },
+                  {
+                    "latOffset": 15515,
+                    "lonOffset": -10576,
+                    "elevationOffset": 424,
+                    "timeOffset": 65534,
+                    "heading": 214
+                  },
+                  {
+                    "latOffset": 15603,
+                    "lonOffset": -10638,
+                    "elevationOffset": 424,
+                    "timeOffset": 65534,
+                    "heading": 88
+                  },
+                  {
+                    "latOffset": 15675,
+                    "lonOffset": -10981,
+                    "elevationOffset": 424,
+                    "timeOffset": 65534,
+                    "heading": 88
+                  },
+                  {
+                    "latOffset": 15735,
+                    "lonOffset": -10761,
+                    "elevationOffset": 417,
+                    "timeOffset": 65534,
+                    "heading": 232
+                  }
+                ]
+              },
+              "pathPrediction": {
+                "radiusOfCurve": 32767,
+                "confidence": 200
+              }
+            }
+          ]
+        },
+        {
+          "partII-Id": 1,
+          "partII-Value": [
+            "SpecialVehicleExtensions",
+            {
+              "vehicleAlerts": {
+                "notUsed": 0,
+                "sirenUse": "inUse",
+                "lightsUse": "inUse",
+                "multi": "unavailable"
+              },
+              "description": {
+                "typeEvent": 1796
+              }
+            }
+          ]
+        },
+        {
+          "partII-Id": 2,
+          "partII-Value": [
+            "SupplementalVehicleExtensions",
+            {
+              "classification": 60,
+              "classDetails": {
+                "keyType": 60,
+                "role": "emergency",
+                "hpmsType": "car"
+              },
+              "vehicleData": {
+                "height": 30,
+                "bumpers": {
+                  "front": 43,
+                  "rear": 43
+                },
+                "mass": 34
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

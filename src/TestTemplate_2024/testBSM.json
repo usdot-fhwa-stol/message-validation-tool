@@ -1,0 +1,352 @@
+{
+    "testgroup": "BSM",
+    "testoperator": "person",
+    "testdate": "",
+    "testlist":
+    {
+        "Exist-01":
+        {   "testtype": "exist",
+            "testobj" : "messageId"
+        },
+        "Exist-02":
+        {   "testtype": "exist",
+            "testobj" : "coreData"
+        },
+        "Exist-03":
+        {   "testtype": "exist",
+            "testobj" : "msgCnt"
+        },
+        "Exist-04":
+        {   "testtype": "exist",
+            "testobj" : "id"
+        },
+        "Exist-05":
+        {   "testtype": "exist",
+            "testobj" : "secMark"
+        },
+        "Exist-06":
+        {   "testtype": "exist",
+            "testobj" : "lat"
+        },
+        "Exist-07":
+        {   "testtype": "exist",
+            "testobj" : "long"
+        },
+        "Exist-08":
+        {   "testtype": "exist",
+            "testobj" : "elev"
+        },
+        "Exist-09":
+        {   "testtype": "exist",
+            "testobj" : "accuracy"
+        },
+        "Exist-10":
+        {   "testtype": "exist",
+            "testobj" : "transmission"
+        },
+        "Exist-11":
+        {   "testtype": "exist",
+            "testobj" : "speed"
+        },
+        "Exist-12":
+        {   "testtype": "exist",
+            "testobj" : "heading"
+        },
+        "Exist-13":
+        {   "testtype": "exist",
+            "testobj" : "angle"
+        },
+        "Exist-14":
+        {   "testtype": "exist",
+            "testobj" : "accelSet"
+        },
+        "Exist-15":
+        {   "testtype": "exist",
+            "testobj" : "brakes"
+        },
+        "Exist-16":
+        {   "testtype": "exist",
+            "testobj" : "wheelBrakes"
+        },
+        "Exist-17":
+        {   "testtype": "exist",
+            "testobj" : "size"
+        },
+        "Exist-18":
+        {   "testtype": "exist",
+            "testobj" : "width"
+        },
+        "Exist-19":
+        {   "testtype": "exist",
+            "testobj" : "length"
+        },
+        "Verify-01":
+        {   "testtype": "verify",
+            "testobj" : "messageId",
+            "verificationtype": "exact",
+            "value": 20
+        },
+        "Verify-02":
+        {   "testtype": "verify",
+            "testobj" : "msgCnt",
+            "verificationtype": "range",
+            "value": [0, 127]
+        },
+        "Verify-03":
+        {   "testtype": "verify",
+            "testobj" : "secMark",
+            "verificationtype": "range",
+            "value": [0, 65535]
+        },
+        "Verify-04":
+        {   "testtype": "verify",
+            "testobj" : "lat",
+            "verificationtype": "range",
+            "value": [-900000000, 900000001]
+        },
+        "Verify-05":
+        {   "testtype": "verify",
+            "testobj" : "long",
+            "verificationtype": "range",
+            "value": [-1799999999, 1800000001]
+        },
+        "Verify-06":
+        {   "testtype": "verify",
+            "testobj" : "elev",
+            "verificationtype": "range",
+            "value": [-4096, 61439]
+        },
+        "Verify-07":
+        {   "testtype": "verify",
+            "testobj" : "transmission",
+            "verificationtype": "enum",
+            "value":
+            [
+                "neutral",
+                "park",
+                "forwardGears",
+                "reverseGears",
+                "reserved1",
+                "reserved2",
+                "reserved3",
+                "unavailable"
+            ]
+        },
+        "Verify-08":
+        {   "testtype": "verify",
+            "testobj" : "speed",
+            "verificationtype": "range",
+            "value": [0, 8191]
+        },
+        "Verify-09":
+        {   "testtype": "verify",
+            "testobj" : "heading",
+            "verificationtype": "range",
+            "value": [0, 28800]
+        },
+        "Verify-10":
+        {   "testtype": "verify",
+            "testobj" : "angle",
+            "verificationtype": "range",
+            "value": [-126, 127]
+        },
+        "Verify-11":
+        {   "testtype": "verify",
+            "testobj" : "width",
+            "verificationtype": "range",
+            "value": [0, 1023]
+        },
+        "Verify-12":
+        {   "testtype": "verify",
+            "testobj" : "length",
+            "verificationtype": "range",
+            "value": [0, 4095]
+        },
+        "Print-01":
+        {   "testtype": "print",
+            "testobj" : "secMark"
+        },
+        "Print-02":
+        {   "testtype": "print",
+            "testobj" : "id"
+        },
+
+        "OptExist-VSE":
+        {   "testtype": "print",
+            "testobj" : "pathHistory"
+        },
+        "OptPrint-01":
+        {   "testtype": "print",
+            "testobj" : "radiusOfCurve"
+        },
+        "OptPrint-02":
+        {   "testtype": "print",
+            "testobj" : "confidence"
+        },
+        "OptVerify-01":
+        {   "testtype": "verify",
+            "testobj" : "latOffset",
+            "verificationtype": "range",
+            "value": [-131072, 131071]
+        },
+        "OptVerify-02":
+        {   "testtype": "verify",
+            "testobj" : "lonOffset",
+            "verificationtype": "range",
+            "value": [-131072, 131071]
+        },
+        "OptVerify-03":
+        {   "testtype": "verify",
+            "testobj" : "elevationOffset",
+            "verificationtype": "range",
+            "value": [-2048, 2047]
+        },
+        "OptVerify-04":
+        {   "testtype": "verify",
+            "testobj" : "timeOffset",
+            "verificationtype": "range",
+            "value": [1, 65535]
+        },
+        "OptVerify-05":
+        {   "testtype": "verify",
+            "testobj" : "radiusOfCurve",
+            "verificationtype": "range",
+            "value": [-32767, 32767]
+        },
+        "OptVerify-06":
+        {   "testtype": "verify",
+            "testobj" : "confidence",
+            "verificationtype": "range",
+            "value": [0, 200]
+        },
+
+        "OptPrint-03":
+        {   "testtype": "print",
+            "testobj" : "typeEvent"
+        },
+        "OptVerify-07":
+        {   "testtype": "verify",
+            "testobj" : "sirenUse",
+            "verificationtype": "enum",
+            "value":
+            [
+                "unavailable",
+                "notInUse",
+                "inUse",
+                "reserved"
+            ]
+        },
+        "OptVerify-08":
+        {   "testtype": "verify",
+            "testobj" : "lightsUse",
+            "verificationtype": "enum",
+            "value":
+            [
+                "unavailable",
+                "notInUse",
+                "inUse",
+                "yellowCautionLights",
+                "schoolBusLights",
+                "arrowSignsActive",
+                "slowMovingVehicle",
+                "freqStops"
+            ]
+        },
+        "OptVerify-09":
+        {   "testtype": "verify",
+            "testobj" : "typeEvent",
+            "verificationtype": "range",
+            "value": [0, 65535]
+        },
+
+        "OptPrint-04":
+        {   "testtype": "print",
+            "testobj" : "classification"
+        },
+        "OptVerify-10":
+        {   "testtype": "verify",
+            "testobj" : "classification",
+            "verificationtype": "range",
+            "value": [0, 255]
+        },
+        "OptVerify-11":
+        {   "testtype": "verify",
+            "testobj" : "role",
+            "verificationtype": "enum",
+            "value":
+            [
+                "basicVehicle",
+                "publicTransport",
+                "specialTransport",
+                "dangerousGoods",
+                "roadWork",
+                "roadRescue",
+                "emergency",
+                "safetyCar",
+                "none-unknown",
+                "truck",
+                "motorcycle",
+                "roadSideSource",
+                "police",
+                "fire",
+                "ambulance",
+                "dot",
+                "transit",
+                "slowMoving",
+                "stopNgo",
+                "cyclist",
+                "pedestrian",
+                "nonMotorized",
+                "military"
+            ]
+        },
+        "OptVerify-12":
+        {   "testtype": "verify",
+            "testobj" : "hpmsType",
+            "verificationtype": "enum",
+            "value":
+            [
+                "none",
+                "unknown",
+                "special",
+                "moto",
+                "car",
+                "carOther",
+                "bus",
+                "axleCnt2",
+                "axleCnt3",
+                "axleCnt4",
+                "axleCnt4Trailer",
+                "axleCnt5Trailer",
+                "axleCnt6Trailer",
+                "axleCnt5MultiTrailer",
+                "axleCnt6MultiTrailer",
+                "axleCnt7MultiTrailer"
+            ]
+        },
+        "OptVerify-13":
+        {   "testtype": "verify",
+            "testobj" : "height",
+            "verificationtype": "range",
+            "value": [0, 127]
+        },
+        "OptVerify-14":
+        {   "testtype": "verify",
+            "testobj" : "mass",
+            "verificationtype": "range",
+            "value": [0, 255]
+        },
+        "OptVerify-15":
+        {   "testtype": "verify",
+            "testobj" : "front",
+            "verificationtype": "range",
+            "value": [0, 127]
+        },
+        "OptVerify-16":
+        {   "testtype": "verify",
+            "testobj" : "rear",
+            "verificationtype": "range",
+            "value": [0, 127]
+        }
+    }
+}
